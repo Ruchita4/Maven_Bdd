@@ -25,6 +25,7 @@ public class StepDefinition {
 	   
 		title=driver.getTitle();
 	    System.out.println(title);
+	    System.out.println("hello !");
 	}
 
 	@Then("^Login should be successful$")
